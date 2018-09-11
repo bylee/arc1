@@ -1,2 +1,11 @@
 {
+  "name": "bylee/arc1",
+  "source": "src/main/lua/app.lua",
+  "target": "contract.lua",
+  "dependencies": [
+    "aergoio/athena-3432"
+  ],
+  "tests": [
+    "src/test/lua/test-util.lua"
+  ]
 }
